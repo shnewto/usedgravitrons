@@ -8159,12 +8159,8 @@ var _user$project$UG$view = function (model) {
 				_elm_lang$html$Html$a,
 				{
 					ctor: '::',
-					_0: _elm_lang$html$Html_Attributes$class('padded'),
-					_1: {
-						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$href('issues/01.pdf'),
-						_1: {ctor: '[]'}
-					}
+					_0: _elm_lang$html$Html_Attributes$href('issues/01.pdf'),
+					_1: {ctor: '[]'}
 				},
 				{
 					ctor: '::',
@@ -8184,12 +8180,8 @@ var _user$project$UG$view = function (model) {
 					_elm_lang$html$Html$a,
 					{
 						ctor: '::',
-						_0: _elm_lang$html$Html_Attributes$class('padded'),
-						_1: {
-							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$href('issues/02.pdf'),
-							_1: {ctor: '[]'}
-						}
+						_0: _elm_lang$html$Html_Attributes$href('issues/02.pdf'),
+						_1: {ctor: '[]'}
 					},
 					{
 						ctor: '::',
@@ -8209,12 +8201,8 @@ var _user$project$UG$view = function (model) {
 						_elm_lang$html$Html$a,
 						{
 							ctor: '::',
-							_0: _elm_lang$html$Html_Attributes$class('padded'),
-							_1: {
-								ctor: '::',
-								_0: _elm_lang$html$Html_Attributes$href('issues/03.pdf'),
-								_1: {ctor: '[]'}
-							}
+							_0: _elm_lang$html$Html_Attributes$href('issues/03.pdf'),
+							_1: {ctor: '[]'}
 						},
 						{
 							ctor: '::',
@@ -8240,12 +8228,8 @@ var _user$project$UG$view = function (model) {
 								_elm_lang$html$Html$a,
 								{
 									ctor: '::',
-									_0: _elm_lang$html$Html_Attributes$class('padded'),
-									_1: {
-										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$href('issues/04.pdf'),
-										_1: {ctor: '[]'}
-									}
+									_0: _elm_lang$html$Html_Attributes$href('issues/04.pdf'),
+									_1: {ctor: '[]'}
 								},
 								{
 									ctor: '::',
@@ -8265,12 +8249,8 @@ var _user$project$UG$view = function (model) {
 									_elm_lang$html$Html$a,
 									{
 										ctor: '::',
-										_0: _elm_lang$html$Html_Attributes$class('padded'),
-										_1: {
-											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$href('issues/05.pdf'),
-											_1: {ctor: '[]'}
-										}
+										_0: _elm_lang$html$Html_Attributes$href('issues/05.pdf'),
+										_1: {ctor: '[]'}
 									},
 									{
 										ctor: '::',
@@ -8290,12 +8270,8 @@ var _user$project$UG$view = function (model) {
 										_elm_lang$html$Html$a,
 										{
 											ctor: '::',
-											_0: _elm_lang$html$Html_Attributes$class('padded'),
-											_1: {
-												ctor: '::',
-												_0: _elm_lang$html$Html_Attributes$href('issues/06.pdf'),
-												_1: {ctor: '[]'}
-											}
+											_0: _elm_lang$html$Html_Attributes$href('issues/06.pdf'),
+											_1: {ctor: '[]'}
 										},
 										{
 											ctor: '::',
@@ -8321,12 +8297,8 @@ var _user$project$UG$view = function (model) {
 												_elm_lang$html$Html$a,
 												{
 													ctor: '::',
-													_0: _elm_lang$html$Html_Attributes$class('padded'),
-													_1: {
-														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$href('issues/07.pdf'),
-														_1: {ctor: '[]'}
-													}
+													_0: _elm_lang$html$Html_Attributes$href('issues/07.pdf'),
+													_1: {ctor: '[]'}
 												},
 												{
 													ctor: '::',
@@ -8346,12 +8318,8 @@ var _user$project$UG$view = function (model) {
 													_elm_lang$html$Html$a,
 													{
 														ctor: '::',
-														_0: _elm_lang$html$Html_Attributes$class('padded'),
-														_1: {
-															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$href('issues/08.pdf'),
-															_1: {ctor: '[]'}
-														}
+														_0: _elm_lang$html$Html_Attributes$href('issues/08.pdf'),
+														_1: {ctor: '[]'}
 													},
 													{
 														ctor: '::',
@@ -8371,12 +8339,8 @@ var _user$project$UG$view = function (model) {
 														_elm_lang$html$Html$a,
 														{
 															ctor: '::',
-															_0: _elm_lang$html$Html_Attributes$class('padded'),
-															_1: {
-																ctor: '::',
-																_0: _elm_lang$html$Html_Attributes$href('issues/09.pdf'),
-																_1: {ctor: '[]'}
-															}
+															_0: _elm_lang$html$Html_Attributes$href('issues/09.pdf'),
+															_1: {ctor: '[]'}
 														},
 														{
 															ctor: '::',
@@ -8402,12 +8366,8 @@ var _user$project$UG$view = function (model) {
 																_elm_lang$html$Html$a,
 																{
 																	ctor: '::',
-																	_0: _elm_lang$html$Html_Attributes$class('padded'),
-																	_1: {
-																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$href('issues/10.pdf'),
-																		_1: {ctor: '[]'}
-																	}
+																	_0: _elm_lang$html$Html_Attributes$href('issues/10.pdf'),
+																	_1: {ctor: '[]'}
 																},
 																{
 																	ctor: '::',
@@ -8427,12 +8387,8 @@ var _user$project$UG$view = function (model) {
 																	_elm_lang$html$Html$a,
 																	{
 																		ctor: '::',
-																		_0: _elm_lang$html$Html_Attributes$class('padded'),
-																		_1: {
-																			ctor: '::',
-																			_0: _elm_lang$html$Html_Attributes$href('issues/11.pdf'),
-																			_1: {ctor: '[]'}
-																		}
+																		_0: _elm_lang$html$Html_Attributes$href('issues/11.pdf'),
+																		_1: {ctor: '[]'}
 																	},
 																	{
 																		ctor: '::',
@@ -8452,12 +8408,8 @@ var _user$project$UG$view = function (model) {
 																		_elm_lang$html$Html$a,
 																		{
 																			ctor: '::',
-																			_0: _elm_lang$html$Html_Attributes$class('padded'),
-																			_1: {
-																				ctor: '::',
-																				_0: _elm_lang$html$Html_Attributes$href('issues/12.pdf'),
-																				_1: {ctor: '[]'}
-																			}
+																			_0: _elm_lang$html$Html_Attributes$href('issues/12.pdf'),
+																			_1: {ctor: '[]'}
 																		},
 																		{
 																			ctor: '::',
@@ -8483,12 +8435,8 @@ var _user$project$UG$view = function (model) {
 																				_elm_lang$html$Html$a,
 																				{
 																					ctor: '::',
-																					_0: _elm_lang$html$Html_Attributes$class('padded'),
-																					_1: {
-																						ctor: '::',
-																						_0: _elm_lang$html$Html_Attributes$href('issues/13.pdf'),
-																						_1: {ctor: '[]'}
-																					}
+																					_0: _elm_lang$html$Html_Attributes$href('issues/13.pdf'),
+																					_1: {ctor: '[]'}
 																				},
 																				{
 																					ctor: '::',
@@ -8508,12 +8456,8 @@ var _user$project$UG$view = function (model) {
 																					_elm_lang$html$Html$a,
 																					{
 																						ctor: '::',
-																						_0: _elm_lang$html$Html_Attributes$class('padded'),
-																						_1: {
-																							ctor: '::',
-																							_0: _elm_lang$html$Html_Attributes$href('issues/14.pdf'),
-																							_1: {ctor: '[]'}
-																						}
+																						_0: _elm_lang$html$Html_Attributes$href('issues/14.pdf'),
+																						_1: {ctor: '[]'}
 																					},
 																					{
 																						ctor: '::',
@@ -8533,12 +8477,8 @@ var _user$project$UG$view = function (model) {
 																						_elm_lang$html$Html$a,
 																						{
 																							ctor: '::',
-																							_0: _elm_lang$html$Html_Attributes$class('padded'),
-																							_1: {
-																								ctor: '::',
-																								_0: _elm_lang$html$Html_Attributes$href('issues/15.pdf'),
-																								_1: {ctor: '[]'}
-																							}
+																							_0: _elm_lang$html$Html_Attributes$href('issues/15.pdf'),
+																							_1: {ctor: '[]'}
 																						},
 																						{
 																							ctor: '::',
@@ -8564,12 +8504,8 @@ var _user$project$UG$view = function (model) {
 																								_elm_lang$html$Html$a,
 																								{
 																									ctor: '::',
-																									_0: _elm_lang$html$Html_Attributes$class('padded'),
-																									_1: {
-																										ctor: '::',
-																										_0: _elm_lang$html$Html_Attributes$href('issues/16.pdf'),
-																										_1: {ctor: '[]'}
-																									}
+																									_0: _elm_lang$html$Html_Attributes$href('issues/16.pdf'),
+																									_1: {ctor: '[]'}
 																								},
 																								{
 																									ctor: '::',
@@ -8589,12 +8525,8 @@ var _user$project$UG$view = function (model) {
 																									_elm_lang$html$Html$a,
 																									{
 																										ctor: '::',
-																										_0: _elm_lang$html$Html_Attributes$class('padded'),
-																										_1: {
-																											ctor: '::',
-																											_0: _elm_lang$html$Html_Attributes$href('issues/17.pdf'),
-																											_1: {ctor: '[]'}
-																										}
+																										_0: _elm_lang$html$Html_Attributes$href('issues/17.pdf'),
+																										_1: {ctor: '[]'}
 																									},
 																									{
 																										ctor: '::',
@@ -8614,12 +8546,8 @@ var _user$project$UG$view = function (model) {
 																										_elm_lang$html$Html$a,
 																										{
 																											ctor: '::',
-																											_0: _elm_lang$html$Html_Attributes$class('padded'),
-																											_1: {
-																												ctor: '::',
-																												_0: _elm_lang$html$Html_Attributes$href('issues/18.pdf'),
-																												_1: {ctor: '[]'}
-																											}
+																											_0: _elm_lang$html$Html_Attributes$href('issues/18.pdf'),
+																											_1: {ctor: '[]'}
 																										},
 																										{
 																											ctor: '::',
@@ -8645,12 +8573,8 @@ var _user$project$UG$view = function (model) {
 																												_elm_lang$html$Html$a,
 																												{
 																													ctor: '::',
-																													_0: _elm_lang$html$Html_Attributes$class('padded'),
-																													_1: {
-																														ctor: '::',
-																														_0: _elm_lang$html$Html_Attributes$href('issues/19.pdf'),
-																														_1: {ctor: '[]'}
-																													}
+																													_0: _elm_lang$html$Html_Attributes$href('issues/19.pdf'),
+																													_1: {ctor: '[]'}
 																												},
 																												{
 																													ctor: '::',
