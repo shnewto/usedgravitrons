@@ -3,27 +3,12 @@ module UG exposing (..)
 import Html exposing (Html, a, br, div, img, p, text)
 import Html.Attributes exposing (class, href, id, src)
 
-
-type Msg
-    = NoOp
-
-
-type alias Model =
-    {}
-
-
-main : Program Never Model Msg
+main : Html msg
 main =
-    Html.program
-        { init = ( {}, Cmd.none )
-        , view = view
-        , update = update
-        , subscriptions = \x -> Sub.none
-        }
+    view
 
-
-view : Model -> Html.Html Msg
-view model =
+view : Html msg
+view =
     p []
         [ a [ href "issues/01.pdf" ]
             [ img [ src "img/01.png" ] [] ]
@@ -71,7 +56,3 @@ view model =
             [ img [ src "img/19.png" ] [] ]
         ]
 
-
-update : Msg -> Model -> ( Model, Cmd Msg )
-update _ model =
-    ( model, Cmd.none )

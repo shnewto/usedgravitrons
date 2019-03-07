@@ -1,0 +1,13 @@
+{
+    "name": "usedgravitrons.com",
+    "version": 2,
+    "alias": [
+        "usedgravitrons.com",
+        "www.usedgravitrons.com"
+    ],
+	"builds": [
+		{ "src": "*.html", "use": "@now/static" },
+		{ "src": "img/*.png", "use": "@now/static" },
+		{ "src": "issues/*.pdf", "use": "@now/static" }
+  	]
+}
