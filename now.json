@@ -5,9 +5,18 @@
         "usedgravitrons.com",
         "www.usedgravitrons.com"
     ],
-	"builds": [
-		{ "src": "*.html", "use": "@now/static" },
-		{ "src": "img/*.png", "use": "@now/static" },
-		{ "src": "issues/*.pdf", "use": "@now/static" }
-  	]
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/static-build"
+        },
+        {
+            "src": "img/*.png",
+            "use": "@now/static"
+        },
+        {
+            "src": "issues/*.pdf",
+            "use": "@now/static"
+        }
+    ]
 }
