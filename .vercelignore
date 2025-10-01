@@ -1,0 +1,29 @@
+pdf-processor/
+
+worker/
+
+# Development files
+*.log
+*.tmp
+
+# Large data files (if not needed for deployment)
+site/data/images/
+site/data/issue_*/
+
+# Python files (not needed for Deno deployment)
+pdf-processor/*.py
+pdf-processor/requirements.txt
+
+# Git files
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

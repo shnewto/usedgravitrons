@@ -1,0 +1,22 @@
+elm-stuff/
+generated-ug.js
+venv/
+.vercel
+
+# Development files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large asset files (served from R2)
+site/data/images/
+site/issues/
+site/public/images/
+organized_assets/
