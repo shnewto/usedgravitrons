@@ -7,14 +7,20 @@ A digital archive of the Used Gravitrons zine, built with Deno and deployed on V
 ### Prerequisites
 - [Deno](https://deno.land/) installed
 - [Vercel CLI](https://vercel.com/cli) installed (optional, for `vercel dev`)
+- [LaunchDarkly](https://launchdarkly.com) account (for feature flags)
 
 ### Running Locally
 
-Start the local development server:
+1. **Set up environment variables**:
+   ```bash
+   cp env.example .env
+   # Edit .env with your LaunchDarkly SDK key
+   ```
 
-```bash
-deno run --allow-all local-dev.ts
-```
+2. **Start the local development server**:
+   ```bash
+   deno run --allow-all local-dev.ts
+   ```
 
 The site will be available at `http://localhost:8000`
 
@@ -67,6 +73,7 @@ Assets (images and PDFs) are served from Cloudflare R2 CDN at `https://cdn.usedg
 - **Runtime**: Deno
 - **Deployment**: Vercel
 - **Assets**: Cloudflare R2 + CDN
+- **Feature Flags**: LaunchDarkly
 - **Styling**: Vanilla CSS
 - **Data**: JSON files with extracted content
 

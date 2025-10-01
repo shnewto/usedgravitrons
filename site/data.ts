@@ -1,6 +1,7 @@
 // Data structure for Used Gravitrons issues with enhanced content
 import { ZineIssue, ZinePiece } from "./types.ts";
 import { getImageUrl, getPdfUrl } from "./config.ts";
+import { getEnabledIssues } from "./launchdarkly.ts";
 
 // Interfaces for the JSON data structure
 interface ExtractedPiece {
@@ -81,7 +82,7 @@ export async function getAllIssues(): Promise<ZineIssue[]> {
     return getBasicIssues();
   }
 
-  return content.issues.map((issue: ExtractedIssue) => ({
+  const allIssues = content.issues.map((issue: ExtractedIssue) => ({
     id: issue.issue_id,
     title: `Used Gravitrons #${issue.issue_id}`,
     coverImage: getImageUrl(issue.issue_id, `${issue.issue_id.toString().padStart(2, '0')}_page1.png`),
@@ -101,6 +102,9 @@ export async function getAllIssues(): Promise<ZineIssue[]> {
       charCount: piece.char_count
     }))
   }));
+
+  // Filter issues based on LaunchDarkly feature flags
+  return await getEnabledIssues(allIssues);
 }
 
 export async function getIssueById(id: number): Promise<ZineIssue | undefined> {

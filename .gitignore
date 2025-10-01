@@ -20,3 +20,5 @@ site/data/images/
 site/issues/
 site/public/images/
 organized_assets/
+
+.env*

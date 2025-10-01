@@ -91,7 +91,7 @@ export async function getHomePage() {
     <header>
         <div class="container">
             <h1>Used Gravitrons</h1>
-            <p class="subtitle">A Literary Zine Archive</p>
+            <p class="subtitle">a archive</p>
         </div>
     </header>
     
