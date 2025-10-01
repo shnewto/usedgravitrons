@@ -1,10 +1,10 @@
 // LaunchDarkly configuration and feature flag management
-import LaunchDarkly from 'npm:launchdarkly-node-server-sdk@^7.0.4';
-import type { LDClient } from 'npm:launchdarkly-node-server-sdk@^7.0.4';
+import LaunchDarkly from 'launchdarkly-node-server-sdk';
+import type { LDClient } from 'launchdarkly-node-server-sdk';
 import type { ZineIssue } from './types.ts';
 
 // LaunchDarkly configuration
-const LD_SDK_KEY = Deno.env.get('LAUNCHDARKLY_SDK_KEY');
+const LD_SDK_KEY = Deno.env.get('LAUNCHDARKLY_SDK_KEY') || '';
 const LD_USER_KEY = Deno.env.get('LAUNCHDARKLY_USER_KEY') || 'anonymous-user';
 
 let ldClient: LDClient | null = null;
