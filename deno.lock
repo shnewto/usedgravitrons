@@ -1,7 +1,7 @@
 {
   "version": "5",
   "specifiers": {
-    "npm:launchdarkly-node-server-sdk@^7.0.4": "7.0.4"
+    "npm:launchdarkly-node-server-sdk@7.0.4": "7.0.4"
   },
   "npm": {
     "async@3.2.6": {
@@ -54,7 +54,7 @@
   },
   "workspace": {
     "dependencies": [
-      "npm:launchdarkly-node-server-sdk@^7.0.4"
+      "npm:launchdarkly-node-server-sdk@7.0.4"
     ]
   }
 }

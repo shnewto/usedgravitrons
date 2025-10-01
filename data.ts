@@ -65,7 +65,7 @@ function mapPieceType(extractedType: string): 'fiction' | 'poetry' | 'art' | 'ed
 async function loadEnhancedContent() {
   if (!enhancedContent) {
     try {
-      const content = await Deno.readTextFile('./site/data/parent_index.json');
+      const content = await Deno.readTextFile('./data/parent_index.json');
       enhancedContent = JSON.parse(content);
     } catch (error) {
       console.error('Failed to load enhanced content:', error);

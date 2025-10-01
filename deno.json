@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "launchdarkly-node-server-sdk@^7.0.4": "npm:launchdarkly-node-server-sdk@7.0.4"
+  }
+}

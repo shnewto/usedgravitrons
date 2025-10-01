@@ -1,6 +1,6 @@
 // LaunchDarkly configuration and feature flag management
-import LaunchDarkly from 'npm:launchdarkly-node-server-sdk@^7.0.4';
-import type { LDClient } from 'npm:launchdarkly-node-server-sdk@^7.0.4';
+import LaunchDarkly from 'launchdarkly-node-server-sdk@^7.0.4';
+import type { LDClient } from 'launchdarkly-node-server-sdk@^7.0.4';
 import type { ZineIssue } from './types.ts';
 
 // LaunchDarkly configuration

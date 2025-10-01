@@ -1,5 +1,5 @@
-import { getHomePage, getIssuePage, getPiecePage, get404Page } from "../site/templates.ts";
-import { getIssueById, getPieceById } from "../site/data.ts";
+import { getHomePage, getIssuePage, getPiecePage, get404Page } from "../templates.ts";
+import { getIssueById, getPieceById } from "../data.ts";
 
 // Handle HTTP requests
 async function handler(request: Request): Promise<Response> {
