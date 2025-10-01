@@ -1,6 +1,5 @@
 // HTML templates for the Used Gravitrons website
 import { getAllIssues, getIssueById, getPieceById } from "./data.ts";
-import { ZineIssue, ZinePiece } from "./types.ts";
 
 export async function getHomePage() {
   return `
@@ -114,7 +113,6 @@ export async function getIssuePage(issueId: number) {
   if (!issue) {
     return get404Page();
   }
-  const issueNum = issueId.toString().padStart(2, '0');
   return `
 <!DOCTYPE html>
 <html lang="en">
