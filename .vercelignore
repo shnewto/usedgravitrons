@@ -14,6 +14,8 @@ site/data/issue_*/
 pdf-processor/*.py
 pdf-processor/requirements.txt
 
+local-dev.ts
+
 # Git files
 .git/
 .gitignore
@@ -27,3 +29,31 @@ pdf-processor/requirements.txt
 # OS files
 .DS_Store
 Thumbs.db
+
+# Deno cache and lock files (not needed for deployment)
+deno.lock
+site/deno.lock
+
+# Environment files (should use Vercel env vars instead)
+.env
+.env.local
+.env.*.local
+
+# Documentation files
+*.md
+!README.md
+
+# Test files
+*_test.ts
+*_test.js
+test/
+tests/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/

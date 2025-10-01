@@ -22,4 +22,3 @@ site/public/images/
 organized_assets/
 
 .env*
-deno.lock
